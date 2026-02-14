@@ -3,7 +3,7 @@ set -e  # Aborta em erro
 
 CONTAINER_NAME="meu-llm-server"
 PORT=8080
-MODEL="Qwen/Qwen2.5-0.5B-Instruct"
+MODEL="Qwen/Qwen3-4B-Instruct-2507-FP8"
 
 echo "🚀 Iniciando servidor LLM ($MODEL) na porta $PORT..."
 
